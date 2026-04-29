@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Tarefa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Nova Tarefa</h1>
+    <form onsubmit="event.preventDefault(); criarTarefa();">
+      <input type="text" placeholder="Título" required>
+      <textarea placeholder="Descrição"></textarea>
+      <button type="button" onclick="location.href='dashboard.html'">Salvar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
